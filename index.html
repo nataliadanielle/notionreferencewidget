@@ -1,38 +1,106 @@
 <!--dictionary lookup box by TheFreeDictionary.com-->
-<style>#dictionarybox TD, INPUT, SELECT {font-size:;}</style>
-<form action="https://www.thefreedictionary.com/_/partner.aspx" method="get" target="_top" name="dictionary"
-style="display:inline;margin:0">
-<table id="dictionarybox" cellspacing="0" cellpadding="3" style="border:1px #FFFFFF solid;font-family:Arial;width:230px;background-color:;color:#DB9DDC"><tr>
-<td bgcolor="#EEC4EF" style="border-bottom:1px #FFFFFF solid"><img src="//img.tfd.com/Help.gif" width="25" height="25"/></td>
-<td bgcolor="#EEC4EF" style="border-bottom:1px #FFFFFF solid" colspan="2" nowrap="yes"><a
-style="text-decoration:none;color:#DB9DDC" href="https://www.thefreedictionary.com" rel="nofollow"><div style="font-size:larger"><b>Search the Web</b></div>
-<div style="font-size:smaller">Dictionary &amp; more</div></a></td></tr>
-<tr><td align="center">Word:<br/>
-<img id=dictionarybox_img_toggle src="//img.tfd.com/toggle/b-down.gif" style="cursor:hand;cursor:pointer"
-onclick="var s=document.getElementById('dictionarybox_source').style;this.src='//img.tfd.com/toggle/b-'+(s.display?'up.gif':'down.gif');s.display=(s.display?'':'none')"/></td>
-<td colspan="2"><input name="Word" value="" size="26"/></td></tr>
-<tr id="dictionarybox_source" style="display:none"><td align=right>Look in:</td><td colspan=2 style="font-size:smaller;text-align:left" id="boxsource_td"><style>#boxsource_td A {color:#DB9DDC;text-decoration:none}</style>
-<!--[if IE]><style>#boxsource_td INPUT {height:12pt}</style><![endif]-->
-<input type="radio" name="Set" value="www" checked="yes"/>Dictionary<br/>
-<input type="radio" name="Set" value="freethesaurus"/>Thesaurus<br/>
-  <input type="radio" name="Set" value="encyclopedia2"/>Encyclopedia<br/>
-<input type="radio" name="Set" value="encyclopedia"/>Wikipedia<br/>
-<input type="radio" name="Set" value="acronyms"/>Acronyms<br/>
-<input type="radio" name="Set" value="idioms"/>Idioms<br/>
-<input type="radio" name="Set" value="medical-dictionary"/>Medical Dictionary<br/>
-<input type="radio" name="Set" value="legal-dictionary"/>Legal Dictionary<br/>
-<input type="radio" name="Set" value="financial-dictionary"/>Financial Dictionary<br/>
-<div style="cursor:hand;cursor:pointer"
-onclick="var s=document.getElementById('dictionarybox_ol').style;document.getElementById('dictionarybox_ol_img').src='//img.tfd.com/toggle/b-'+(s.display?'up.gif':'down.gif');s.display=(s.display?'':'none')"><img 
-id=dictionarybox_ol_img src="//img.tfd.com/toggle/b-down.gif"/>Other languages:</div><div id="dictionarybox_ol" style="display:none">
-<input type="radio" name="Set" value="es"/>Spanish Dictionary<br/>
-<input type="radio" name="Set" value="fr"/>French Dictionary<br/>
-<input type="radio" name="Set" value="it"/>Italian Dictionary<br/>
-<input type="radio" name="Set" value="pt"/>Portuguese Dictionary<br/>
-<input type="radio" name="Set" value="el"/>Greek Dictionary<br/>
-</td></tr>
-<tr><td align="right">by:</td>
-<td><select name="mode"><option value="w">Word</option><option value="s">Starts with</option>
-<option value="e">Ends with</option><option value="d">Mentions</option></select></td>
-<td align=right><input type="submit" name="submit" value="Look it up"/></td></tr></table></form>
+<html>
+  <head>
+    <style>#dictionarybox TD, INPUT, SELECT {font-size:;}</style>
+</head>
+  <body>
+    <form action="https://www.thefreedictionary.com/_/partner.aspx" method="get" target="_top" name="dictionary" style="display:inline;margin:0">
+      <table id="dictionarybox" cellspacing="0" cellpadding="3" style="border:1px #FFFFFF solid;font-family:Arial;width:230px;background-color:;color:#B765B9">
+        <tbody>
+          <tr>
+            <td bgcolor="#EEC4EF" style="border-bottom:1px #FFFFFF solid"><img src="https://lh3.googleusercontent.com/Mr9hfWZLGmF62S6dozWmX6S1EQ1Fs0PNDoYla8c8La1CcNe5PmDzQQBgvVx--Yd7tQ6PAmLzULyH5-_rgO40F50iIJYuQsawFMrHSHEKkYOy-_G1kte3fXIWbGdwV4wHRJ0iAd7_=s25-p-k" width="30" height="30" class=""></td>
+            <td bgcolor="#EEC4EF" style="border-bottom:1px #FFFFFF solid" colspan="2" nowrap="yes">
+              <a style="text-decoration:none;color:#B765B9" href="https://www.thefreedictionary.com" rel="nofollow">
+                <div style="font-size:larger">
+                  <b>Search the Web</b>
+                </div>
+                <div style="font-size:smaller">Dictionary &amp; more</div>
+              </a>
+            </td>
+          </tr>
+<tr>
+  <td align="center">
+    "Word:"
+    <br>
+    <img id="dictionarybox_img_toggle" src="https://lh3.googleusercontent.com/JzKr-EJG4brWBqoBAxR82Wfhah0KyssWJqE6QFhwIkm9tn4elkyhGRtJVJvBhAswuJBIEX55gB1sATOcxMvT7lEYLq0bO2t-AQcQRv_XDRuRr5D9GYmzcQMlGCxkJMVVpK6Da3WJ=s10-p-k" style="cursor:hand;cursor:pointer" onclick="var s=document.getElementById('dictionarybox_source').style;this.src='//img.tfd.com/toggle/b-'+(s.display?'up.gif':'down.gif');s.display=(s.display?'':'none')">
+  </td>
+  <td colspan="2">
+    <input name="Word" value="" size="26">
+  </td>
+</tr>
+ <tr id="dictionarybox_source" style="display: none;">
+  <td align="right">Look in:</td>
+  <td colspan="2" style="font-size:smaller;text-align:left" id="boxsource_td">
+    <style>#boxsource_td A {color:#DB9DDC;text-decoration:none}</style>
+    <!--[if IE]><style>#boxsource_td INPUT {height:12pt}</style><![endif]-->
+    <input type="radio" name="Set" value="www" checked="yes">
+        "Dictionary"
+        <br>
+    <input type="radio" name="Set" value="freethesaurus">
+        "Thesaurus"
+        <br>
+    <input type="radio" name="Set" value="encyclopedia2">
+        "Encyclopedia"
+        <br>
+    <input type="radio" name="Set" value="encyclopedia">
+        "Wikipedia"
+        <br>
+    <input type="radio" name="Set" value="acronyms">
+        "Acronyms"
+        <br>
+    <input type="radio" name="Set" value="idioms">
+        "Idioms"
+        <br>
+    <input type="radio" name="Set" value="medical-dictionary">
+        "Medical Dictionary"
+        <br>
+    <input type="radio" name="Set" value="legal-dictionary">
+        "Legal Dictionary"
+        <br>
+    <input type="radio" name="Set" value="financial-dictionary">
+        "Financial Dictionary"
+        <br>
+    <div style="cursor:hand;cursor:pointer" onclick="var s=document.getElementById('dictionarybox_ol').style;document.getElementById
+    ('dictionarybox_ol_img').src='//img.tfd.com/toggle/b-'+(s.display?'up.gif':'down.gif');s.display=(s.display?'':'none')">
+      <img id="dictionarybox_ol_img" src="//img.tfd.com/toggle/b-down.gif">
+      "Other languages:"
+    </div>
+    <div id="dictionarybox_ol" style="display:none">
+      <input type="radio" name="Set" value="es">
+      "Spanish Dictionary"
+      <br>
+      <input type="radio" name="Set" value="fr">
+      "French Dictionary"
+      <br>
+      <input type="radio" name="Set" value="it">
+      "Italian Dictionary"
+      <br>
+      <input type="radio" name="Set" value="pt">
+      "Portuguese Dictionary"
+      <br>
+      <input type="radio" name="Set" value="el">
+      "Greek Dictionary"
+      <br>
+    </div>
+   </td>
+  </tr>
+<tr>
+  <td align="right">by:</td>
+  <td>
+    <select name="mode">
+      <option value="w">Word</option>
+      <option value="s">Starts with</option>
+      <option value="e">Ends with</option>
+      <option value="d">Mentions</option>
+    </select>
+  </td>
+  <td align="right">
+    <input type="submit" name="submit" value="Look it up">
+   </td>
+  </tr>
+ </tbody>
+</table>
+</form>
 <!--end of dictionary lookup box-->
+</body>
+</html>
